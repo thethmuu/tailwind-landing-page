@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>HTML Forms</title>
+  </head>
+  <body class="bg-blue-50 min-h-screen">
+    <div
+      class="container min-h-screen mx-auto flex justify-center items-center"
+    >
+      <!-- Form container -->
+      <div
+        class="max-w-[34rem] bg-white py-6 px-10 rounded-lg border border-solid border-gray-300"
+      >
+        <h1 class="font-body font-semibold text-2xl text-center">
+          Create your Google Account
+        </h1>
+        <form class="mt-5">
+          <div class="flex items-center gap-2">
+            <fieldset>
+              <label for="firstName">First Name</label>
+              <input
+                class="form-control invalid:border-red-300"
+                type="text"
+                id="firstName"
+                placeholder="First Name"
+                name="firstName"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <label for="lastName">Last Name</label>
+              <input
+                class="form-control"
+                type="text"
+                id="lastName"
+                placeholder="Last Name"
+                name="lastName"
+              />
+            </fieldset>
+          </div>
+          <fieldset class="mt-5">
+            <label for="email">Email</label>
+            <input
+              class="form-control"
+              type="email"
+              id="email"
+              placeholder="Email"
+              name="email"
+            />
+            <small>You can use letters, numbers & periods</small>
+          </fieldset>
+          <div class="flex items-center gap-2">
+            <fieldset class="mt-5">
+              <label for="email">Password</label>
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                placeholder="Password"
+              />
+            </fieldset>
+            <fieldset class="mt-5">
+              <label for="email">Confirm</label>
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                placeholder="Confirm Password"
+              />
+            </fieldset>
+          </div>
+          <small
+            >Use 8 or more characters with a mix of letters, numbers &
+            symbols</small
+          >
+          <fieldset class="mt-5">
+            <input
+              class="form-control w-auto"
+              type="checkbox"
+              id="show-password"
+            />
+            <label for="show-password">Show password</label>
+          </fieldset>
+          <fieldset class="mt-5">
+            <p>Select your interest</p>
+            <input type="radio" name="interest" id="interest-1" />
+            <label for="interest-1">Tech</label>
+            <input type="radio" name="interest" id="interest-2" />
+            <label for="interest-2">Sports</label>
+            <input type="radio" name="interest" id="interest-3" />
+            <label for="interest-3">Literature</label>
+          </fieldset>
+          <fieldset class="mt-5">
+            <label for="bio">Your bio: </label>
+            <textarea
+              class="form-control w-full"
+              name="bio"
+              id="bio"
+              rows="5"
+            ></textarea>
+          </fieldset>
+          <div class="mt-5 flex justify-end">
+            <button
+              class="px-3 py-2 bg-blue-500 text-white hover:bg-blue-600 hover:shadow-lg hover:ring hover:ring-blue-500 hover:ring-offset-1 rounded"
+            >
+              Sign Up
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="form-practice.js"></script>
+  </body>
+</html>

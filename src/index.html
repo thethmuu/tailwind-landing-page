@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Insure Landing Page</title>
+  </head>
+  <body class="text-primary font-body">
+    <!-- Nav section start -->
+    <header
+      class="container mx-auto flex items-center justify-between p-5 sm:px-0"
+    >
+      <img src="images/logo.svg" alt="Logo" />
+      <div class="hidden sm:flex items-center gap-8 uppercase">
+        <nav>
+          <ul
+            class="flex items-center justify-between gap-8 text-gray-500 text-sm"
+          >
+            <li class="hover:text-slate-900"><a href="#">How we work</a></li>
+            <li class="hover:text-slate-900"><a href="#">Blog</a></li>
+            <li class="hover:text-slate-900"><a href="#">Account</a></li>
+          </ul>
+        </nav>
+        <button class="btn btn-primary">view plans</button>
+      </div>
+      <div
+        class="burger p-3 cursor-pointer sm:hidden border border-solid border-primary"
+      >
+        <div class="w-6 h-[2px] bg-primary mb-2"></div>
+        <div class="w-6 h-[2px] bg-primary mb-2"></div>
+        <div class="w-6 h-[2px] bg-primary"></div>
+      </div>
+    </header>
+    <!-- Nav section end -->
+    <main class="relative">
+      <!-- Mobile nav section -->
+      <nav
+        class="mobile-nav absolute w-full top-0 p-5 bg-primary text-secondary text-center text-xl uppercase h-screen transition-transform duration-300"
+      >
+        <ul>
+          <li class="py-4">
+            <a href="#">How we work</a>
+          </li>
+          <li class="py-4">
+            <a href="#">Blog</a>
+          </li>
+          <li class="py-4">
+            <a href="#">Account</a>
+          </li>
+        </ul>
+        <button class="btn btn-secondary text-xl w-full mt-4">
+          view plans
+        </button>
+      </nav>
+      <!-- Hero section start -->
+      <section id="hero" class="bg-primary text-white">
+        <div class="container mx-auto flex flex-wrap sm:flex-nowrap gap-6">
+          <div
+            class="grow order-1 sm:order-none sm:w-7/12 text-center sm:text-left"
+          >
+            <div class="hidden sm:block w-36 h-[1px] bg-white mt-24"></div>
+            <h1 class="font-heading text-6xl font-bold mt-16">
+              Humanizing your insurance.
+            </h1>
+            <p class="mt-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+              aperiam temporibus quasi explicabo maiores dicta, hic recusandae?
+              Magni optio, dignissimos quisquam commodi eligendi numquam iure
+              unde voluptatum. Blanditiis, fugit natus.
+            </p>
+            <button class="btn btn-secondary mt-8 mb-20 sm:mb-0">
+              view plans
+            </button>
+          </div>
+          <div class="grow">
+            <img
+              class="min-w-full sm:translate-y-24"
+              src="images/image-intro-desktop.jpg"
+              alt="Intro"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Hero section end -->
+      <!-- Features section start -->
+      <section id="features" class="mt-40 sm:mt-60 text-center px-5 sm:px-0">
+        <div class="container mx-auto">
+          <div class="w-36 h-[1px] bg-gray-900 mx-auto"></div>
+          <h2 class="font-heading text-4xl sm:text-6xl font-bold mt-8">
+            We're different
+          </h2>
+          <div class="flex flex-wrap sm:flex-nowrap mt-12">
+            <article class="py-8 sm:py-16">
+              <img
+                class="mx-auto"
+                src="images/icon-snappy-process.svg"
+                alt="Snappy"
+              />
+              <h3 class="font-heading mt-8 font-bold text-2xl">
+                Snappy Process
+              </h3>
+              <p class="mt-6 text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                dolores minus illum repellendus necessitatibus sunt!
+              </p>
+            </article>
+            <article class="py-8 sm:py-16">
+              <img
+                class="mx-auto"
+                src="images/icon-affordable-prices.svg"
+                alt="Snappy"
+              />
+              <h3 class="font-heading mt-8 font-bold text-2xl">
+                Snappy Process
+              </h3>
+              <p class="mt-6 text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                dolores minus illum repellendus necessitatibus sunt!
+              </p>
+            </article>
+            <article class="py-8 sm:py-16">
+              <img
+                class="mx-auto"
+                src="images/icon-people-first.svg"
+                alt="Snappy"
+              />
+              <h3 class="font-heading mt-8 font-bold text-2xl">
+                Snappy Process
+              </h3>
+              <p class="mt-6 text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                dolores minus illum repellendus necessitatibus sunt!
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Features section end -->
+      <!-- How we work section start -->
+      <section
+        id="how-we-work"
+        class="mt-[4rem] text-white px-5 sm:px-0 py-40 sm:py-0"
+      >
+        <div
+          class="container py-24 bg-primary mx-auto flex flex-wrap sm:flex-nowrap gap-6"
+        >
+          <div class="flex items-center sm:py-14 px-16">
+            <h4
+              class="font-heading text-4xl sm:text-5xl text-center font-bold leading-[1.1]"
+            >
+              Find out more about how we work
+            </h4>
+          </div>
+          <div
+            class="min-w-full sm:min-w-[35%] flex justify-center sm:justify-end items-center sm:py-12 sm:px-16"
+          >
+            <button class="btn btn-secondary mt-3 sm:mt-6">How we work</button>
+          </div>
+        </div>
+      </section>
+      <!-- How we work section end -->
+    </main>
+    <!-- footer start -->
+    <footer class="bg-secondary uppercase">
+      <div class="container mx-auto">
+        <div
+          class="flex flex-wrap justify-center sm:justify-between items-center pt-12 pb-6 border-b border-solid border-slate-300"
+        >
+          <img src="images/logo.svg" alt="Logo" />
+          <div
+            class="flex justify-center mt-4 sm:mt-0 space-x-2 min-w-full sm:min-w-fit text-2xl text-gray-500"
+          >
+            <i class="fa-brands fa-square-facebook hover:text-slate-900"></i>
+            <i class="fa-brands fa-twitter hover:text-slate-900"></i>
+            <i class="fa-brands fa-pinterest hover:text-slate-900"></i>
+            <i class="fa-brands fa-instagram hover:text-slate-900"></i>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap justify-between items-center py-12 gap-2 text-lg sm:text-xs font-semibold text-center tracking-wider"
+        >
+          <div class="grow basis-full sm:basis-auto">
+            <h5 class="mb-6 text-gray-400">Our company</h5>
+            <ul class="space-y-2">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </div>
+          <div class="grow basis-full sm:basis-auto">
+            <h5 class="mb-6 text-gray-400">Our company</h5>
+            <ul class="space-y-2">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </div>
+          <div class="grow basis-full sm:basis-auto">
+            <h5 class="mb-6 text-gray-400">Our company</h5>
+            <ul class="space-y-2">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </div>
+          <div class="grow basis-full sm:basis-auto">
+            <h5 class="mb-6 text-gray-400">Our company</h5>
+            <ul class="space-y-2">
+              <li>How we work</li>
+              <li>Why Insure?</li>
+              <li>View plans</li>
+              <li>Reviews</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
